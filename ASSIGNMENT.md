@@ -52,12 +52,12 @@ grep ">" | wc -l test.fa
 
 *Question 10*
 ```bash=
-grep ">" > identifiers.txt
+grep ">" test.fa>identifiers.txt
 ```
 
 *Question 11*
 ```bash=
-sed -i 's/A/a/g' test.fa
+tr A a<test.fa
 ```
 
 *Question 12*
